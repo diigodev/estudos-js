@@ -19,5 +19,6 @@ if (idade >=18 && temcarteira){
     console.log("Pode dirigir");
 } 
 
-const status = nota >= 7 ? "Aprovado" : "Reprovado";
+const status = nota >= 7 ? "Aprovado" : "Reprovado"; //if/else simplificado em uma só linha, usando operador ternário
 console.log(status);
+
